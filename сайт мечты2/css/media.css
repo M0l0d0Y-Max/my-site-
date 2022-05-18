@@ -1,0 +1,526 @@
+
+@media  (max-width: 480px){
+
+  main{
+     margin: 10px;
+  }
+    .header{
+        display: flex;
+    }
+
+    .text__main{
+        font-size: 24px;
+        top: 0;
+        margin: 20px auto;
+    }
+
+    .arrow{
+       display: none;
+    }
+
+    .arrow img{
+        width: 200px;
+        height: 100px;
+    }
+
+    .services{
+        padding-top: 300px;
+    }
+
+    .projects__text{
+        font-size: 40px;
+    }
+
+    .benefits__cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text__card{
+        margin: auto;
+    }
+
+    .about__us{
+        display: block;
+    }
+
+    .about__text{
+        padding: 0px 0px 0px 0px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .heading__text{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about__us .line{
+        margin: auto;
+    }
+
+    .text__info__about__us{
+        width: 100%;
+        width: auto;
+    }
+
+    .paralax{
+        width: 100%;
+        height: 600px;
+    }
+    
+    .cell_informations{
+        height: 320px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        padding: 0;
+    }
+
+    .number{
+        font-size: 29px;
+    }
+
+    .cell_text{
+        font-size: 20px;
+    }
+
+    .span{
+        display: none;
+    }
+
+    .cell{
+        padding: 20px;
+    }
+
+    .projects__pictures{
+        display: block;
+    }
+
+    .container{
+        /* margin-top: 20px; */
+    }
+
+    .clients{
+        padding-top: 20px;
+
+    }
+
+    .clients__icon{
+        display: flex;
+    }
+
+    .footer__informations{
+        display: block;
+    }
+
+    .container__map{
+        width: 100%;
+    }
+
+    .map{
+        width: 100%;
+        height: 300px;
+    }
+
+    input{
+        width: 330px;
+        height: 30px;
+    }
+
+    textarea{
+        width: 330px;
+    }
+
+    button{
+        text-align: center;
+        width: 330px;
+    }
+
+    .button{
+        width: 330px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer__information{
+        display: block;
+        width: 80%;
+        justify-content: start;
+    }
+
+    .icons{
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+@media(min-width: 481px) and (max-width: 768px){
+    .header{
+        display: block;
+    }
+    .text__main{
+        font-size: 30px;
+        top:0;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .arrow img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .services{
+        padding-top: 500px;
+    }
+
+    .projects__text{
+        font-size: 40px;
+    }
+
+    .benefits__cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text__card{
+        margin: auto;
+    }
+
+    .about__us{
+        display: block;
+    }
+
+    .about__text{
+        padding: 0px 0px 0px 0px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .heading__text{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about__us .line{
+        margin: auto;
+    }
+
+    .text__info__about__us{
+        width: 100%;
+        width: auto;
+    }
+
+    .paralax{
+        width: 100%;
+        height: 600px;
+    }
+    .cell_informations{
+        height: 320px;
+       display: grid;
+       grid-template-columns: repeat(2, 2fr);
+        padding: 0;
+    }
+
+    .number{
+        font-size: 29px;
+    }
+
+    .cell_text{
+        font-size: 20px;
+    }
+
+    .span{
+        display: none;
+    }
+
+    .cell{
+        padding: 20px;
+    }
+
+    .projects__pictures{
+        display: block;
+    }
+
+    .container{
+        margin-top: 20px;
+    }
+
+    .clients{
+        padding-top: 20px;
+
+    }
+
+    .footer__informations{
+        display: block;
+    }
+
+    .container__map{
+        width: 100%;
+    }
+
+    .map{
+        width: 100%;
+        height: 300px;
+    }
+
+    input{
+        width: 530px;
+        height: 50px;
+    }
+
+    textarea{
+        width: 530px;
+    }
+
+    button{
+        text-align: center;
+        width: 330px;
+    }
+
+    .button{
+        width: 330px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    .footer__information{
+        display: block;
+        width: 80%;
+        justify-content: start;
+    }
+
+    .icons{
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+@media  (max-width: 767px){
+
+    .clients__icon{
+        display: none;
+    }
+
+    .header{
+        display: flex;
+    }
+
+    .slider{
+        min-width: 0;
+        display: flex;
+    }
+
+    .slick-track{
+        display: flex;
+    }
+
+    .slick-list{
+        overflow:hidden;
+    }
+
+    .slider{
+        position: relative;
+    }
+
+    .slider .slick-arrow{
+        position: absolute;
+        margin: 0px 20px 50px 20px;
+        top: 45%;
+        z-index: 10;
+        font-size: 0;
+        width: 30px;
+        height: 50px;
+
+    }
+
+    .slider .slick-arrow.slick-prev{
+        left: 0;
+        background: url(../img/svg/arrow-left.svg) 0 0 / 100% no-repeat;
+    }
+
+    .slider .slick-arrow.slick-next{
+        right: 0;
+        background: url(../img/svg/arrow-right.svg) 0 0 / 100% no-repeat;
+    }
+
+    .slider .slick-dots{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider .slick-dots li{
+        list-style: none;
+        margin: 0 10px;
+    }
+
+    .slider .slick-dots button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        border-radius: 50%;
+    }
+
+    .slider .slick-dots li .slick-active button{
+        background-color: transparent;
+
+    }
+
+    .prev .next{
+        display: none;
+    }
+}
+
+
+@media(min-width: 769px) and (max-width: 1024px){
+    .header{
+        display: block;
+    }
+    .text__main{
+        font-size: 30px;
+        top:0;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .arrow img{
+        width: 100px;
+        height: 50px;
+    }
+
+    .services{
+        padding-top: 500px;
+    }
+
+    .projects__text{
+        font-size: 40px;
+    }
+
+    .benefits__cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text__card{
+        margin: auto;
+    }
+
+    .about__us{
+        display: block;
+    }
+
+    .about__text{
+        padding: 0px 0px 0px 0px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .heading__text{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about__us .line{
+        margin: auto;
+    }
+
+    .text__info__about__us{
+        width: 100%;
+        width: auto;
+    }
+
+    .paralax{
+        width: 100%;
+        height: 600px;
+    }
+    .cell_informations{
+        height: 320px;
+       display: grid;
+       grid-template-columns: repeat(2, 2fr);
+        padding: 0;
+    }
+
+    .number{
+        font-size: 29px;
+    }
+
+    .cell_text{
+        font-size: 20px;
+    }
+
+    .span{
+        display: none;
+    }
+
+    .cell{
+        padding: 20px;
+    }
+
+    .projects__pictures{
+        display: block;
+    }
+
+    .container{
+        margin-top: 20px;
+    }
+
+    .clients{
+        padding-top: 20px;
+
+    }
+
+    .footer__informations{
+        display: block;
+    }
+
+    .container__map{
+        width: 100%;
+    }
+
+    .map{
+        width: 100%;
+        height: 300px;
+    }
+
+    input{
+        width: 530px;
+        height: 50px;
+    }
+
+    textarea{
+        width: 530px;
+    }
+
+    button{
+        text-align: center;
+        width: 330px;
+    }
+
+    .button{
+        width: 330px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+    .footer__information{
+        display: block;
+        width: 80%;
+        justify-content: start;
+    }
+
+    .icons{
+        margin: 0;
+        margin-top: 10px;
+    }
+}

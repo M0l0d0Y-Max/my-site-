@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firm</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/png/logo.png" type="image/png">
+    <link rel="stylesheet" href="./css/media.css">
+    <script src="./js/jquery-3.6.0.slim.js"></script>
+    <script src="./js/burger-menu.js"></script>
+    <link rel="stylesheet" href="./css/burger-menu.css"> 
+    <link rel="stylesheet" href="./css/fonts.css">
+</head>
+<body>
+    <?php
+     require './php/connect.php';
+     require './php/form.php';
+    ?>
+    <main>
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <a href="#" class="header__logo">
+                        <img src="./img/png/logo.png" alt="">
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        
+                        <ul class="header__list">
+                            <li>
+                                <a href="tel:+7(495)0000000" class="header__link">+7 (495) 000 00 00</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__link">Главная</a>
+                            </li>
+                            <li>
+                                <a href="#service" class="header__link">Услуги</a>
+                            </li>
+                            <li>
+                                <a href="#about__us" class="header__link">О нас</a>
+                            </li>
+                            <li>
+                                <a href="#projects" class="header__link">Проекты</a>
+                            </li>
+                            <li>
+                                <a href="#contacts" class="header__link">Контакты</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="intro__title">
+            <video autoplay muted loop id="myVideo">
+                <source src="./video/video cran.mp4" type="video/mp4" class="cran">
+              </video>
+              <div class="text__title"></div>
+              <h1 class="text__main">
+                  Лидеры В области качественного проектирования и строительства
+              </h1>
+              <a href="#service" class="arrow">
+                  <img  src="./img/arrow.png" alt="">
+              </a>
+        </div>
+        <div class="services">
+            <h2 class="projects__text" id="service"> Услуги</h2>
+            <hr class="line">
+            <div class="benefits__cards">
+                <div class="card">
+                    <img src="./img/planning.jpg" alt="">
+                    <div class="text__card">
+                        <h3 class="heading__text__card">Планирование <br> строительства</h3>
+                    <p> 
+                        План – это заранее намеченный порядок работы, 
+                        последовательность осуществления программы 
+                         действий строительного подразделения.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/architecture.png" alt="">
+                    <div class="text__card">
+                        <h3 class="heading__text__card">Архитектурное <br> моделирование</h3>
+                    <p> 
+                        Архитектурное моделирование – это 
+                        исследование объектов познания в 
+                        области архитектурной или градостроительной 
+                        деятельности (формы, пространства, объекта, комплекса) 
+                        путем построения моделей 
+                        (систем моделей) и имитации условия, максимально приближенных к потенциально 
+                        реальной ситуации, с целью сбора информации.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/control.png" alt="">
+                    <div class="text__card">
+                        <h3 class="heading__text__card">Управление <br> строительством</h3>
+                    <p>Управление строительством – это комплекс 
+                        действий, направленный на оптимизацию 
+                        процесса проектирования и возведение объекта 
+                        строительства.</p>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <div class="about__us" id="about__us">
+          <div class="about__text">
+              <h3 class="heading__text">О нас</h3>
+              <hr class="line">
+              <p class="text__info__about__us">Наша компания "HouseVOP" занимает лидирующее место 
+                  на строительном рынке Москвы. Наша компания основана в 2023г. Основное направление компании: 
+                  строительство и реконструкция офисных зданий и сооружений любой сложности, капитальный ремонт зданий, 
+                  строительство коттеджей, строительство домов, строительство магазинов, ремонт офисов, строительство мансард. 
+                  Наша строительная компания выполняет проектирование и постройку зданий любой сложности. 
+                  Наша строительная компания применяет в строительстве самые современные технологии и использует современные материалы.</p>
+          </div>
+          <div class="paralax"></div>  
+        </div>
+        </div>
+        <div class="cell_informations">
+            <div class="cell">
+                <p class="number">2023</p>
+                <p class="cell__text">Год <br> основания</p>
+            </div>
+            <span class="span" ></span>
+            <div class="cell">
+                <p class="number">206</p>
+                <p class="cell__text">Завершенных <br> проектов</p>
+            </div>
+            <span class="span"></span>
+            <div class="cell">
+                <p class="number">870</p>
+                <p class="cell__text">Строительных <br> проектов</p>
+            </div>
+            <span class="span"></span>
+            <div class="cell">
+                <p class="number">26</p>
+                <p class="cell__text">Полученных <br>наград</p>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <h3 class="projects__text">Проекты</h3>
+            <hr class="line">
+            <div class="projects__pictures">
+                <a href="./html/project1.html">
+                <div class="container">
+                    <img src="./img/house-1.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                        <div class="text">Проект 1</div>
+                    </div>
+                </div>
+            </a>
+            <a href="./html/project2.html">
+                <div class="container">
+                    <img src="./img/house-2.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Проект 2</div>
+                    </div>
+                </div>
+            </a>
+               <a href="./html/project3.html">
+                <div class="container">
+                    <img src="./img/house-3.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Проект 3</div>
+                    </div>
+                </div>
+               </a>
+             <a href="./html/project4.html">
+                <div class="container">
+                    <img src="./img/house-4.jpg" alt="Avatar" class="image">
+                    <div class="overlay">
+                    <div class="text">Проект 4</div>
+                </div>
+                </div>
+             </a>
+               
+        </div>
+        <div class="clients" id="clients">
+            <h3 class="projects__text">Клиенты</h3>
+            <hr class="line">
+            <div class="clients__icon">
+                <div class="cell__image">
+                    <img  class="second" src="./img/png/second1.png" alt="">
+                </div>
+                <div class="cell__image">
+                    <img class="second" src="./img/webp/second2.webp" alt="">
+                </div>
+                <div class="cell__image">
+                    <img class="second" src="./img/webp/second3.webp" alt="">
+                </div>
+                <div class="cell__image">
+                    <img class="second" src="./img/webp/second4.webp" alt="">
+                </div>
+                <div class="cell__image">
+                    <img class="second" src="./img/webp/second5.webp" alt="">
+                </div>
+            </div>
+            
+            
+            <div class="slider">
+                <div class="slider__item">
+                    <img  class="second" src="./img/png/second1.png" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="second" src="./img/webp/second2.webp" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="second" src="./img/webp/second3.webp" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="second" src="./img/webp/second4.webp" alt="">
+                </div>
+                <div class="slider__item">
+                    <img class="second" src="./img/webp/second5.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <h3 class="projects__text" id="contacts">Контакты</h3>
+            <hr class="line">
+            <div class="conteiner__map">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17963.898570810186!2d37.57798992073746!3d55.750036309013566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a4d078690df%3A0x906859e16e2f8c80!2z0J_QvtC00YrRkdC8!5e0!3m2!1sru!2sru!4v1650902680279!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer__informations">
+                <div class="col-1">
+                    <h3 class="text__info">Ответы на вопросы</h3>
+                    <p>С удовольствием ответим на все ваши вопросы по телефону: <br>
+                    <strong>+ 7 (495) 000-00-00.</strong>  <br> Или просто заполните форму ниже:</p>
+                        <div class="input__container">
+                           <form action="./php/form.php" method="POST" name="forma">
+                            <p>Имя:</p>
+                            <input class="input" type="text" name="first_name">
+                            <p>Фамилия:</p>
+                            <input class="input" type="text" name="last_name">
+                            <p>Эл. почта*</p> 
+                            <input class="input" type="email" name="email">
+                            <p>Телефон</p>
+                            <input class="input" type="phonе" name="phone">
+                           <p>Оставьте сообщение:</p> 
+                            <textarea name="message" cols="30" rows="10"></textarea>
+                            <div class="button">
+                                <button>Отправить </button>
+                            </div>
+                           </form>
+                        </div>
+                       
+                </div>
+                <div class="col-2">
+                   <div class="conteiner__info">
+                    <h3 class="text__info">Центральный офис</h3>
+                    <p>ул. Арбат, 1а, Москва<br>
+                        119019, Россия
+                    </p>
+                    <p>info@mysite.ru<br>
+                        Телефон: +7 (495) 000-00-00<br>
+                        Факс: +7 (495) 000-00-00
+                    </p>
+                   </div>
+                 
+                   <div class="class="conteiner__info">
+                    <h3 class="text__info">Хотите у нас работать ?</h3>
+                    <p>Пожалуйста, отправьте резюме и сопроводительное письмо по адрессу:
+                        info@mysite.ru
+                    </p>
+                    <hr class="line">
+                    <h3 class="text__info">Звоните: <a class="number__phone" href="tel:+7495000000">+7 (495) 000 00 00</a></h3>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__information">
+            <p>© 2023 Проектно-строительная фирма «HouseVOP».</p>
+            <div class="icons">
+                <a href="https://vk.com">
+                    <img src="./img/png/vk.png" alt="">
+                </a>
+                <a href="https://www.facebook.com">
+                    <img src="./img/png/facebook.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="./img/png/instagram.png" alt="">
+                </a>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">&#11014;</button>
+        </div>
+    </main>
+   
+    <script src="./js/anchor.js"></script>
+    <script src="./js/button.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

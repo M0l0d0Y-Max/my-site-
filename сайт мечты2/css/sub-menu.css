@@ -1,0 +1,38 @@
+
+.sub-menu__list{
+    position: absolute;
+    top: 0;
+    background-color: #1E2D3B;
+    color: azure;
+    top: 20px;
+    left: 57%;
+    padding: 100px 60px 20px 0px;
+    display: none;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header__list>:hover .sub-menu__list{
+    display: block;
+    padding-top: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 3s;
+}
+
+.sub-menu__link {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sub-menu__list li{
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.sub-menu__link{
+    text-decoration: none;
+    padding-top: 30px;
+}
